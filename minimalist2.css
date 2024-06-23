@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.top-container {
+    background-image: url("https://res.cloudinary.com/dzbev5zdy/image/upload/v1719059685/top_container_background_image_original_oaubda.png");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.popup-img-main {
+    width: 90%;
+    padding: 10px;
+}
+
+.popup-img {
+    height: 150px;
+    width: 150px;
+    padding: 5px;
+}
+
+.main-img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-mini-imgs-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.firefly-logo {
+    width: 150px;
+    height: auto;
+}
+
+.text-button-container {
+    margin-top: 20px;
+}
+
+.heading-text {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.button-text {
+    background-color: #ffffff;
+    color: #ff5722;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.middle-container {
+    padding: 2rem;
+}
+
+.main-about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.border-container img {
+    width: 100px;
+    height: auto;
+}
+
+.about-container {
+    margin: 0 1rem;
+}
+
+.about {
+    font-size: 15px;
+    font-weight: bold;
+    color: orange;
+    padding-top: 10px;
+}
+
+.main-middle-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sparks-container img {
+    width: 80px;
+    height: auto;
+}
+
+.paragraph-container {
+    max-width: 800px;
+    margin: 1rem 0;
+}
+
+.paragraph {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.span-text {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.card-container {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card-image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.card-text-button-container {
+    padding: 1rem;
+}
+
+.card-name-text {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.quick-view-button {
+    background-color: #ff5722;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bottom-border {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.bottom-border-image {
+    width: 100%;
+    height: auto;
+}
+
+.main-footer-container {
+    padding: 1rem;
+    text-align: center;
+    background-color: #25A769;
+}
+
+.footer-container {
+    background-color: #25A769;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flower-container img {
+    width: 50px;
+    height: auto;
+}
+
+.follow-us-container {
+    text-align: center;
+}
+
+.follow-us-text {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: yellow;
+    font-weight: bold;
+}
+
+.modal-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.h-3 {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.h-1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.modal-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.brands-container img {
+    width: 30px;
+    height: auto;
+    margin: 0 0.5rem;
+}
+
+.img-c img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 576px) {
+    .heading-text {
+        font-size: 1.5rem;
+    }
+
+    .button-text {
+        padding: 0.4rem 0.8rem;
+    }
+
+    .about {
+        font-size: 1.2rem;
+    }
+
+    .paragraph {
+        font-size: 0.9rem;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .heading-text {
+        font-size: 1.75rem;
+    }
+
+    .button-text {
+        padding: 0.45rem 0.9rem;
+    }
+
+    .about {
+        font-size: 1.3rem;
+    }
+
+    .paragraph {
+        font-size: 1rem;
+    }
+
+    .cards-container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .card-container {
+        width: 45%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .heading-text {
+        font-size: 2rem;
+    }
+
+    .button-text {
+        padding: 0.5rem 1rem;
+    }
+
+    .about {
+        font-size: 1.4rem;
+    }
+
+    .paragraph {
+        font-size: 1.1rem;
+    }
+
+    .cards-container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .card-container {
+        width: 40%;
+    }
+
+    .main-middle-text-container {
+        display: flex;
+        flex-direction: row;
+        background-color: transparent;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .heading-text {
+        font-size: 2.25rem;
+    }
+
+    .button-text {
+        padding: 0.6rem 1.2rem;
+    }
+
+    .about {
+        font-size: 1.5rem;
+    }
+
+    .paragraph {
+        font-size: 1.2rem;
+    }
+
+    .cards-container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .card-container {
+        width: 30%;
+    }
+
+    .main-middle-text-container {
+        display: flex;
+        flex-direction: row;
+        background-color: transparent;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .logo-container-1 {
+        display: flex;
+        align-self: flex-start;
+        background-color: transparent;
+        height: 120px;
+        width: 160px;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+
+    .firefly-logo {
+        height: 70px;
+        width: 150px;
+    }
+
+    .text-button-container {
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 300px;
+        width: 531px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        align-self: flex-start;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+
+    .heading-text {
+        font-size: 38px;
+        font-family: 'Roboto';
+        font-weight: bold;
+        text-align: start;
+        padding: 10px;
+    }
+
+    .button-container {
+        padding-left: 15px;
+    }
+
+    .button-text {
+        padding: 0.75rem 1.5rem;
+    }
+
+    .about {
+        font-size: 1.75rem;
+    }
+
+    .paragraph {
+        font-size: 1.25rem;
+    }
+
+    .cards-container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .card-container {
+        width: 25%;
+    }
+
+    .main-middle-text-container {
+        display: flex;
+        flex-direction: row;
+        background-color: transparent;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
